@@ -1,0 +1,28 @@
+.slider-container {
+	position: relative;
+	max-width: 500px;
+	overflow: hidden;
+
+}
+
+.slides {
+	display: flex;
+	position: relative;
+	width: 500px;
+	transition: all 0.5s ease;
+}
+
+img {
+	width: 100%;
+
+}
+
+button {
+    position: absolute;
+	top: 50%;
+}
+
+button.prev {
+	right: 0;
+}
+
